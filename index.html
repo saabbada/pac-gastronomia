@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descobreix receptes tradicionals de Nador i del nord del Marroc.">
+  <title>Inici | Sabors del Rif</title>
+  <link rel="stylesheet" href="./css/estils.scss">
+</head>
+<body>
+
+  <a class="skip-link" href="#contingut-principal">
+    Salta al contingut principal
+  </a>
+
+  <include src="./partials/navegacio.html"></include>
+
+  <main id="contingut-principal">
+    <section aria-labelledby="benvinguda">
+      <h1 id="benvinguda">Descobreix la cuina del Rif</h1>
+      <p>
+        Benvinguts a Sabors del Rif, un espai dedicat a la cuina
+        tradicional de Nador i del nord del Marroc.
+      </p>
+      <p>
+        Descobreix receptes, ingredients i formes de cuinar que
+        reflecteixen la riquesa gastronòmica d'una regió mediterrània.
+      </p>
+      <a href="./categoria/index.html">Explora les receptes</a>
+    </section>
+
+    <section aria-labelledby="seleccio">
+      <h2 id="seleccio">Receptes destacades</h2>
+
+      <article>
+        <h3>Tajín de peix</h3>
+        <p>
+          Una preparació de peix amb verdures, herbes i espècies,
+          inspirada en la cuina de la costa mediterrània marroquina.
+        </p>
+        <a href="./det1/index.html">Descobreix el tajín de peix</a>
+      </article>
+
+      <article>
+        <h3>Cuscús de verdures</h3>
+        <p>
+          Sèmola de blat acompanyada de verdures i espècies,
+          en un plat tradicional que es prepara de diverses maneres
+          segons la regió i la família.
+        </p>
+        <a href="./det2/index.html">Descobreix el cuscús de verdures</a>
+      </article>
+    </section>
+  </main>
+
+  <include src="./partials/peu.html"></include>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
